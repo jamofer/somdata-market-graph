@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from server.endpoints.currency_exchange import get_currency_exchanges_endpoint
 
 urlpatterns = [
+    path('currency-exchanges', get_currency_exchanges_endpoint),
     path('admin/', admin.site.urls),
 ]
