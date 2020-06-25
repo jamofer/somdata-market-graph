@@ -1,4 +1,5 @@
 # somdata-market-graph
+![Demo](demo.png)
 
 ## Install
 ```shell
