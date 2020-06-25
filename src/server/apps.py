@@ -1,5 +1,4 @@
 import logging
-from datetime import datetime
 
 from currency_exchange import currency_exchange_service
 from currency_exchange.currency_exchange_service import BTC_USDT_SYMBOL, GetCurrencyExchangeSummaryError
@@ -8,7 +7,7 @@ from django.apps import AppConfig
 import periodic_task
 
 
-BTC_USDT_UPDATE_INTERVAL = 10
+BTC_USDT_UPDATE_INTERVAL = 60
 
 
 class Server(AppConfig):
